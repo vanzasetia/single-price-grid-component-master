@@ -1,17 +1,10 @@
 {
   "name": "single-price-grid-component-master",
   "version": "1.0.0",
-  "description": "Created on 3 June 2021",
+  "description": "Revised on 27 July 2021",
   "main": "index.js",
   "scripts": {
-    "devserver": "live-server .",
-    "watch:sass": "sass scss/main.scss css/style.css --watch --no-source-map",
-    "start": "npm-run-all --parallel devserver watch:sass",
-
-    "compile:sass": "sass scss/main.scss css/style.css --no-source-map",
-    "prefix:css": "postcss --use autoprefixer -b 'last 20 versions' css/style.css --output css/style.css",
-    "prettier": "npx prettier --write .",
-    "build": "npm-run-all compile:sass prefix:css prettier"
+    
   },
   "author": "Vanza Setia",
   "license": "ISC"
