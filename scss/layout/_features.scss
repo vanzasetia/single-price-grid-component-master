@@ -1,0 +1,19 @@
+@use "../abstracts" as *;
+
+.features {
+  background-color: $features-bg;
+  color: $white;
+}
+
+.features__list {
+  margin-top: rem(20);
+}
+
+.features__item {
+  opacity: 0.7;
+  font-size: rem(14);
+}
+
+.features__item:not(:first-child) {
+  margin-top: rem(6);
+}

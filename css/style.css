@@ -60,7 +60,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #e5eff5;
-  padding: 2rem;
+  padding: 3.75rem 2rem;
   min-height: 100vh;
   font-family: "Karla", sans-serif;
   font-size: 1rem;
@@ -133,6 +133,24 @@ ul {
   color: #c0df34;
 }
 
+.features {
+  background-color: #4abebd;
+  color: white;
+}
+
+.features__list {
+  margin-top: 1.25rem;
+}
+
+.features__item {
+  opacity: 0.7;
+  font-size: 0.875rem;
+}
+
+.features__item:not(:first-child) {
+  margin-top: 0.375rem;
+}
+
 .subscription {
   background-color: #2ab2af;
   overflow: hidden;
@@ -155,7 +173,7 @@ ul {
 }
 
 .subscription__month {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .subscription__btn {
