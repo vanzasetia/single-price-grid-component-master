@@ -33,7 +33,7 @@ I will start with the `style-guide.md` file. This file doesn't contain the exact
 
 I also have no idea what is the color fpr the box shadow of the button. I tried the card box shadow color which is *Grayish Blue: hsl(218, 22%, 67%)*, it doesn't look similar to the design. So I use my black color which is `rgba(17, 17, 17, 0.2)`.
 
-I added some **special hover effect** for the **Sign Up** button and my attribution.
+I added some **special hover effect** for the **Sign Up** button and my attribution links.
 
 ## What I Learned
 * I learned new link hover technique, by using `transform: scaleX()`.
