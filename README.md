@@ -33,8 +33,11 @@ I will start with the `style-guide.md` file. This file doesn't contain the exact
 
 I also have no idea what is the color fpr the box shadow of the button. I tried the card box shadow color which is *Grayish Blue: hsl(218, 22%, 67%)*, it doesn't look similar to the design. So I use my black color which is `rgba(17, 17, 17, 0.2)`.
 
+I added some **special hover effect** for the **Sign Up** button and my attribution.
+
 ## What I Learned
-* I learned new button hover technique by using `::after` pseudo element.
+* I learned new link hover technique, by using `transform: scaleX()`.
+* Using `aria-label` on link to describe more detail about what is the purpose of the link.
 
 
 ## Built With
@@ -48,7 +51,9 @@ This project is created using **HTML5**, **CSS3**, and **Sass**. I also use CSS 
 
 ## Useful Resources
 * [A simple visualization on CSS Grid](https://grid.malven.co/)
-* [My inspiration for the button hover effect for this project](https://codepen.io/umairkhan14/pen/vEKpZG)
+* [My inspiration for the button hover effect](https://codepen.io/umairkhan14/pen/vEKpZG)
+* [My inspiration for the footer link hover effect](https://codepen.io/escapist/pen/EaQygW)
+* [Using aria-label for link purpose](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8)
 
 
 ## Continued development
