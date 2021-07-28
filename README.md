@@ -17,11 +17,13 @@
 </p>
 
 ## Feedback and Live Review
-* [🌍 Live Review](https://vanzasetiacommunity.netlify.app/)
-* [👉 Give feedback on Frontend Mentor platform](https://www.frontendmentor.io/solutions/using-sass-to-finish-this-challenge-BbXdDmNH9)
-* [🐦 Give Feedback on Twitter]()
+
+- [🌍 Live Review](https://vanzasetiacommunity.netlify.app/)
+- [👉 Give feedback on Frontend Mentor platform](https://www.frontendmentor.io/solutions/using-sass-to-finish-this-challenge-BbXdDmNH9)
+- [🐦 Give Feedback on Twitter]()
 
 ## Table of contents
+
 - [Story](#the-story-when-doing-this-challenge)
 - [What I Learned](#what-i-learned)
 - [Technology that I used](#built-with)
@@ -29,19 +31,30 @@
 - [Continued Development](#continued-development)
 
 ## The Story When Doing This Challenge
-I will start with the `style-guide.md` file. This file doesn't contain the exact color for the `why-us` section. So, I have to use [Color Picker](https://play.google.com/store/apps/details?id=gmikhail.colorpicker) and scan the design images to get the color.
 
-I also have no idea what is the color fpr the box shadow of the button. I tried the card box shadow color which is *Grayish Blue: hsl(218, 22%, 67%)*, it doesn't look similar to the design. So I use my black color which is `rgba(17, 17, 17, 0.2)`.
+I will start with the `style-guide.md` file. This file doesn't contain
+the exact color for the `why-us` section. So, I have to use
+[Color Picker](https://play.google.com/store/apps/details?id=gmikhail.colorpicker)
+and scan the design images to get the color.
 
-I added some **special hover effect** for the **Sign Up** button and my attribution links.
+I also have no idea what is the color fpr the box shadow of the
+button. I tried the card box shadow color which is _Grayish Blue:
+hsl(218, 22%, 67%)_, it doesn't look similar to the design. So I use
+my black color which is `rgba(17, 17, 17, 0.2)`.
+
+I added some **special hover effect** for the **Sign Up** button and
+my attribution links.
 
 ## What I Learned
-* I learned new link hover technique, by using `transform: scaleX()`.
-* Using `aria-label` on link to describe more detail about what is the purpose of the link.
 
+- I learned new link hover technique, by using `transform: scaleX()`.
+- Using `aria-label` on link to describe more detail about what is the
+  purpose of the link.
 
 ## Built With
-This project is created using **HTML5**, **CSS3**, and **Sass**. I also use CSS Grid to span the first row into two columns.
+
+This project is created using **HTML5**, **CSS3**, and **Sass**. I
+also use CSS Grid to span the first row into two columns.
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" width="auto" height="70px">
@@ -50,11 +63,17 @@ This project is created using **HTML5**, **CSS3**, and **Sass**. I also use CSS 
 </p>
 
 ## Useful Resources
-* [A simple visualization on CSS Grid](https://grid.malven.co/)
-* [My inspiration for the button hover effect](https://codepen.io/umairkhan14/pen/vEKpZG)
-* [My inspiration for the footer link hover effect](https://codepen.io/escapist/pen/EaQygW)
-* [Using aria-label for link purpose](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8)
 
+- [A simple visualization on CSS Grid](https://grid.malven.co/)
+- [My inspiration for the button hover effect](https://codepen.io/umairkhan14/pen/vEKpZG)
+- [My inspiration for the footer link hover effect](https://codepen.io/escapist/pen/EaQygW)
+- [Using aria-label for link purpose](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8)
 
 ## Continued development
-Even though it's been a while since I did this challenge, if you have any feedback or other comments feel free to write it down in **community feedback** on [Frontend Mentor](https://www.frontendmentor.io/solutions/using-sass-to-finish-this-challenge-BbXdDmNH9). I will try my best to reply your comments and fixing issues that you have found.
+
+Even though it's been a while since I did this challenge, if you have
+any feedback or other comments feel free to write it down in
+**community feedback** on
+[Frontend Mentor](https://www.frontendmentor.io/solutions/using-sass-to-finish-this-challenge-BbXdDmNH9).
+I will try my best to reply your comments and fixing issues that you
+have found.

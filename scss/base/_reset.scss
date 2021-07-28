@@ -15,7 +15,7 @@
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
   -webkit-clip-path: inset(50%) !important;
-          clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
   height: 1px !important;
   margin: -1px !important;
   overflow: hidden !important;
@@ -25,7 +25,9 @@
   white-space: nowrap !important;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -53,7 +55,7 @@ body {
   background-color: $body-bg;
   padding: rem(60) rem(32);
   min-height: 100vh;
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: rem(16);
 }
 

@@ -34,7 +34,7 @@
   }
 }
 
-@mixin color-scheme($value: "light") {
+@mixin color-scheme($value: 'light') {
   @media screen and (prefers-color-scheme:#{$value}) {
     @content;
   }

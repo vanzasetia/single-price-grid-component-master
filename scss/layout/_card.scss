@@ -2,16 +2,14 @@
 
 .card {
   border-radius: 0.5em;
-  box-shadow: 
-    rem(5) rem(5) rem(16) rgba($grayish-blue, 0.2),
-    -#{rem(5)} -#{rem(5)} rem(16) rgba($grayish-blue, 0.2)
-  ;
+  box-shadow: rem(5) rem(5) rem(16) rgba($grayish-blue, 0.2),
+    -#{rem(5)} -#{rem(5)} rem(16) rgba($grayish-blue, 0.2);
   overflow: hidden;
-  
+
   @media screen and (min-width: 46.875em) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+
     & > *:first-child {
       grid-column: 1 / 3;
     }
@@ -20,7 +18,7 @@
 
 .card__container {
   padding: rem(20);
-  
+
   @media screen and (min-width: 46.875em) {
     padding: rem(36);
   }
