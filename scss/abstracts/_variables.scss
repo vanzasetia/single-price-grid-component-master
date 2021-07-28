@@ -1,0 +1,21 @@
+// Default style that I currently use on this project
+$default-html-font-size: 100% !default;
+$black: rgb(17, 17, 17) !default;
+$white: rgb(255, 255, 255) !default;
+$selection-bg: rgb(68, 171, 255) !default;
+$focus-visible-color: rgb(206, 230, 96) !default;
+
+// Primary Color
+$cyan-100: rgb(74, 190, 189);
+$cyan-200: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+
+// Neutral Color
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+
+// Use Cases
+$body-bg: $light-gray;
+$subscription-bg: $cyan-200;
+$why-us-bg: $cyan-100;
+$btn-bg: $bright-yellow;

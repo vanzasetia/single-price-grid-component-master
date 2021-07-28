@@ -1,0 +1,63 @@
+@use "../abstracts" as *;
+
+.subscription {
+  background-color: $subscription-bg;
+  overflow: hidden;
+  color: $white;
+}
+
+.subscription__title {
+  margin-bottom: rem(10);
+}
+
+.subscription__price {
+  display: flex;
+  align-items: center;
+}
+
+.subscription__number {
+  margin-right: rem(16);
+  font-size: rem(32);
+  font-weight: 700;
+}
+
+.subscription__month {
+  opacity: 0.6;
+}
+
+.subscription__btn {
+  position: relative;
+  display: block;
+  margin-top: rem(32);
+  border-radius: 0.25em;
+  box-shadow: 
+    0 0 rem(20) rgba($black, 0.2)
+  ;
+  background-color: $btn-bg;
+  padding: rem(14) 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  color: $white;
+  font-weight: 700;
+  
+  @include focus-visible;
+}
+
+.subscription__btn::after {
+  content: "Only for 1 Person Left!";
+  position: absolute;
+  top: 0;
+  left: -105%;
+  height: 100%;
+  width: 100%;
+  padding: inherit;
+  background-color: shade($btn-bg, 5%);
+  transition: left 250ms ease-in-out;
+}
+
+.subscription__btn:hover::after, 
+.subscription__btn:active::after, 
+.subscription__btn:focus::after {
+  left: 0;
+}

@@ -1,0 +1,20 @@
+@use "../abstracts" as *;
+
+.header {
+  background-color: $white;
+  overflow: hidden;
+}
+
+.header__title {
+  color: $cyan-100;
+}
+
+.header__description {
+  color: $grayish-blue;
+}
+
+.header__strong {
+  display: block;
+  margin: rem(20) 0;
+  color: $bright-yellow;
+}

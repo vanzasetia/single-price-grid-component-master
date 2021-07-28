@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Karla-Regular.woff2") format("woff2"), url("../fonts/Karla-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Karla-Bold.woff2") format("woff2"), url("../fonts/Karla-Bold.woff") format("woff");
+}
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: #44abff;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #44abff;
+  color: white;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5eff5;
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  line-height: 1.4;
+}
+
+h2 {
+  line-height: 1.4;
+}
+
+h3 {
+  line-height: 1.4;
+}
+
+h4 {
+  line-height: 1.4;
+}
+
+h5 {
+  line-height: 1.4;
+}
+
+h6 {
+  line-height: 1.4;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.card {
+  border-radius: 0.5em;
+  box-shadow: 0.3125rem 0.3125rem 1rem rgba(152, 166, 189, 0.2), -0.3125rem -0.3125rem 1rem rgba(152, 166, 189, 0.2);
+  overflow: hidden;
+}
+
+.card__container {
+  padding: 1.25rem;
+}
+
+.header {
+  background-color: white;
+  overflow: hidden;
+}
+
+.header__title {
+  color: #4abebd;
+}
+
+.header__description {
+  color: #98a6bd;
+}
+
+.header__strong {
+  display: block;
+  margin: 1.25rem 0;
+  color: #c0df34;
+}
+
+.subscription {
+  background-color: #2ab2af;
+  overflow: hidden;
+  color: white;
+}
+
+.subscription__title {
+  margin-bottom: 0.625rem;
+}
+
+.subscription__price {
+  display: flex;
+  align-items: center;
+}
+
+.subscription__number {
+  margin-right: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subscription__month {
+  opacity: 0.6;
+}
+
+.subscription__btn {
+  position: relative;
+  display: block;
+  margin-top: 2rem;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1.25rem rgba(17, 17, 17, 0.2);
+  background-color: #c0df34;
+  padding: 0.875rem 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+.subscription__btn:focus-visible {
+  outline: 0.125rem dashed #cee660;
+  outline-offset: 0.3125rem;
+}
+
+.subscription__btn::after {
+  content: "Only for 1 Person Left!";
+  position: absolute;
+  top: 0;
+  left: -105%;
+  height: 100%;
+  width: 100%;
+  padding: inherit;
+  background-color: #b6d431;
+  transition: left 250ms ease-in-out;
+}
+
+.subscription__btn:hover::after,
+.subscription__btn:active::after,
+.subscription__btn:focus::after {
+  left: 0;
+}

@@ -1,0 +1,14 @@
+@use "../abstracts" as *;
+
+.card {
+  border-radius: 0.5em;
+  box-shadow: 
+    rem(5) rem(5) rem(16) rgba($grayish-blue, 0.2),
+    -#{rem(5)} -#{rem(5)} rem(16) rgba($grayish-blue, 0.2)
+  ;
+  overflow: hidden;
+}
+
+.card__container {
+  padding: rem(20);
+}
