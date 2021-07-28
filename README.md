@@ -31,9 +31,10 @@
 ## The Story When Doing This Challenge
 I will start with the `style-guide.md` file. This file doesn't contain the exact color for the `why-us` section. So, I have to use [Color Picker](https://play.google.com/store/apps/details?id=gmikhail.colorpicker) and scan the design images to get the color.
 
-I also have no idea what is the color fpr the box shadow of the buttons. I tried the card box shadow color which is *Grayish Blue: hsl(218, 22%, 67%)*, it's not the same.
+I also have no idea what is the color fpr the box shadow of the button. I tried the card box shadow color which is *Grayish Blue: hsl(218, 22%, 67%)*, it doesn't look similar to the design. So I use my black color which is `rgba(17, 17, 17, 0.2)`.
 
 ## What I Learned
+* I learned new button hover technique by using `::after` pseudo element.
 
 
 ## Built With
@@ -47,6 +48,7 @@ This project is created using **HTML5**, **CSS3**, and **Sass**. I also use CSS 
 
 ## Useful Resources
 * [A simple visualization on CSS Grid](https://grid.malven.co/)
+* [My inspiration for the button hover effect for this project](https://codepen.io/umairkhan14/pen/vEKpZG)
 
 
 ## Continued development
