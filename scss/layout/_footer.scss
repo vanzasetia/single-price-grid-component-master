@@ -1,0 +1,43 @@
+@use "../abstracts" as *;
+
+.footer {
+  margin-top: rem(30);
+  border-radius: 0.625em;
+  box-shadow: 
+    rem(5) rem(5) rem(12) rgba($black, 0.15),
+    -#{rem(5)} -#{rem(5)} rem(12) rgba($black, 0.15)
+  ;
+  background-color: rgb(61, 169, 168);
+  padding: rem(16);
+  text-align: center;
+  color: $white;
+}
+
+.footer__link {
+  position: relative;
+  color: $white;
+  font-weight: 700;
+  
+  @include focus-visible;
+}
+
+.footer__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  border-radius: 2em;
+  background-color: $white;
+  height: rem(2);
+  width: 100%;
+  transform: scaleX(0);
+  transition: all 250ms ease-in-out;
+}
+
+.footer__link:hover::after, 
+.footer__link:focus::after,
+.footer__link:active::after {
+  visibility: visible;
+  transform: scaleX(1);
+}

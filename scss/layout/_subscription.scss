@@ -44,8 +44,7 @@
   @include focus-visible;
 }
 
-.subscription__btn::after {
-  content: "Only for 1 Person Left!";
+.subscription__alert {
   position: absolute;
   top: 0;
   left: -105%;
@@ -53,11 +52,11 @@
   width: 100%;
   padding: inherit;
   background-color: shade($btn-bg, 5%);
-  transition: left 250ms ease-in-out;
+  transition: left 350ms ease-in-out;
 }
 
-.subscription__btn:hover::after, 
-.subscription__btn:active::after, 
-.subscription__btn:focus::after {
+.subscription__btn:hover .subscription__alert, 
+.subscription__btn:active .subscription__alert, 
+.subscription__btn:focus .subscription__alert {
   left: 0;
 }
