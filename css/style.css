@@ -67,6 +67,15 @@ body {
   font-size: 1rem;
 }
 
+main {
+  max-width: 23.75rem;
+}
+@media screen and (min-width: 46.875em) {
+  main {
+    max-width: 40rem;
+  }
+}
+
 h1 {
   line-height: 1.4;
 }
@@ -108,9 +117,23 @@ ul {
   box-shadow: 0.3125rem 0.3125rem 1rem rgba(152, 166, 189, 0.2), -0.3125rem -0.3125rem 1rem rgba(152, 166, 189, 0.2);
   overflow: hidden;
 }
+@media screen and (min-width: 46.875em) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card > *:first-child {
+    grid-column: 1/3;
+  }
+}
 
 .card__container {
   padding: 1.25rem;
+}
+@media screen and (min-width: 46.875em) {
+  .card__container {
+    padding: 2.25rem;
+  }
 }
 
 .header {
@@ -122,10 +145,20 @@ ul {
   color: #4abebd;
   font-size: 1.25rem;
 }
+@media screen and (min-width: 46.875em) {
+  .header__title {
+    font-size: 1.5rem;
+  }
+}
 
 .header__description {
   color: #98a6bd;
   font-size: 0.875rem;
+}
+@media screen and (min-width: 46.875em) {
+  .header__description {
+    font-size: 1rem;
+  }
 }
 
 .header__strong {
@@ -184,8 +217,8 @@ ul {
   border-radius: 0.25em;
   box-shadow: 0 0 1.25rem rgba(17, 17, 17, 0.2);
   background-color: #c0df34;
-  padding: 0.875rem 0;
-  width: 100%;
+  padding: 0.875rem;
+  max-width: 18.75rem;
   overflow: hidden;
   text-align: center;
   color: white;
@@ -202,7 +235,7 @@ ul {
   left: -105%;
   height: 100%;
   width: 100%;
-  padding: inherit;
+  padding: 0.875rem;
   background-color: #b6d431;
   transition: left 350ms ease-in-out;
 }

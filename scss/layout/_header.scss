@@ -8,11 +8,19 @@
 .header__title {
   color: $cyan-100;
   font-size: rem(20);
+  
+  @media screen and (min-width: 46.875em) {
+    font-size: rem(24);
+  }
 }
 
 .header__description {
   color: $grayish-blue;
   font-size: rem(14);
+  
+  @media screen and (min-width: 46.875em) {
+    font-size: rem(16);
+  }
 }
 
 .header__strong {

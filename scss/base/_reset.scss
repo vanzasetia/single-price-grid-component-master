@@ -57,6 +57,14 @@ body {
   font-size: rem(16);
 }
 
+main {
+  max-width: rem(380);
+
+  @media screen and (min-width: 46.875em) {
+    max-width: rem(640);
+  }
+}
+
 // h1 - h6
 @for $i from 1 through 6 {
   h#{$i} {
