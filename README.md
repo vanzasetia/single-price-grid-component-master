@@ -6,7 +6,6 @@
   <a href="https://twitter.com/vanzasetia" target="_blank"><img src="https://img.shields.io/twitter/follow/vanzasetia?logo=twitter&style=for-the-badge" alt="Twitter followers." /></a>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanzasetia/single-price-grid-component-master?style=for-the-badge&logo=git">
   <img alt="Netlify" src="https://img.shields.io/netlify/ba4f3610-b74c-4a56-85d2-a5d94a7590a8?style=for-the-badge&logo=netlify">
-  <img alt="W3C Validation" src="">
 </p>
 <p>
   <a href="http://jigsaw.w3.org/css-validator/check/referer">
