@@ -19,7 +19,7 @@
 
 - [🌍 Live Review](https://vanzasetiacommunity.netlify.app/)
 - [👉 Give feedback on Frontend Mentor platform](https://www.frontendmentor.io/solutions/using-sass-to-finish-this-challenge-BbXdDmNH9)
-- [🐦 Give Feedback on Twitter]()
+- [🐦 Give Feedback on Twitter](https://twitter.com/vanzasetia/status/1420281374255173635?s=19)
 
 ## Table of contents
 
