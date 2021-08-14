@@ -30,16 +30,11 @@
 - [Continued Development](#continued-development)
 
 ## The Story When Doing This Challenge
-
-I will start with the `style-guide.md` file. This file doesn't contain
-the exact color for the `why-us` section. So, I have to use
+I have to use
 [Color Picker](https://play.google.com/store/apps/details?id=gmikhail.colorpicker)
 and scan the design images to get the color.
 
-I also have no idea what is the color fpr the box shadow of the
-button. I tried the card box shadow color which is _Grayish Blue:
-hsl(218, 22%, 67%)_, it doesn't look similar to the design. So I use
-my black color which is `rgba(17, 17, 17, 0.2)`.
+I use my black color which is `rgba(17, 17, 17, 0.2)` for the `box-shadow`.
 
 I added some **special hover effect** for the **Sign Up** button and
 my attribution links.
